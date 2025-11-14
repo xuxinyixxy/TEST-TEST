@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdisplay_board.a CMakeFiles/display_board.dir/display_board.cpp.o
+/usr/bin/ranlib libdisplay_board.a
