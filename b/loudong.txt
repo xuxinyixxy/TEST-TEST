@@ -1,0 +1,7 @@
+漏洞：应该添加一个检查采样后点云是否为空
+    
+    if(downsampled_cloud->empty()){
+      RCLCPP_WARN(this->get_logger(),"Downsampled cloud is empty!");
+    }
+
+点云发布时需要设置坐标系frame_id吧？不设置会不会因为坐标系混乱而出现问题？
